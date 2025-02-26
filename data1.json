@@ -1,0 +1,191 @@
+[
+    {
+      "model": "myapp.category",
+      "pk": 1,
+      "fields": {
+        "name": "Electronics",
+        "image": "images/categories/electronics.jpg",
+        "description": "Latest electronic gadgets and accessories.",
+        "status": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+    {
+      "model": "myapp.category",
+      "pk": 2,
+      "fields": {
+        "name": "Clothing",
+        "image": "images/categories/clothing.jpg",
+        "description": "Trendy and stylish fashion wear.",
+        "status": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+    {
+      "model": "myapp.category",
+      "pk": 3,
+      "fields": {
+        "name": "Home Appliances",
+        "image": "images/categories/home_appliances.jpg",
+        "description": "Essential home and kitchen appliances.",
+        "status": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+    {
+      "model": "myapp.category",
+      "pk": 4,
+      "fields": {
+        "name": "Books",
+        "image": "images/categories/books.jpg",
+        "description": "Best-selling books and novels.",
+        "status": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 1,
+      "fields": {
+        "Category": 1,
+        "name": "Smartphone",
+        "vendor": "TechStore",
+        "pdt_image": "images/products/smartphone.jpg",
+        "quantity": 50,
+        "org_Price": 699.99,
+        "sell_Price": 649.99,
+        "description": "Latest 5G smartphone with AMOLED display.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 2,
+      "fields": {
+        "Category": 1,
+        "name": "Laptop",
+        "vendor": "TechStore",
+        "pdt_image": "images/products/laptop.jpg",
+        "quantity": 30,
+        "org_Price": 1299.99,
+        "sell_Price": 1199.99,
+        "description": "Powerful laptop with high-end performance.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 3,
+      "fields": {
+        "Category": 2,
+        "name": "Men's Leather Jacket",
+        "vendor": "FashionHub",
+        "pdt_image": "images/products/leather_jacket.jpg",
+        "quantity": 20,
+        "org_Price": 99.99,
+        "sell_Price": 79.99,
+        "description": "Genuine leather jacket for men.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 4,
+      "fields": {
+        "Category": 2,
+        "name": "Women's Designer Dress",
+        "vendor": "StyleWorld",
+        "pdt_image": "images/products/designer_dress.jpg",
+        "quantity": 25,
+        "org_Price": 149.99,
+        "sell_Price": 129.99,
+        "description": "Elegant evening dress for women.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 5,
+      "fields": {
+        "Category": 3,
+        "name": "Washing Machine",
+        "vendor": "HomeEssentials",
+        "pdt_image": "images/products/washing_machine.jpg",
+        "quantity": 15,
+        "org_Price": 599.99,
+        "sell_Price": 549.99,
+        "description": "Fully automatic washing machine.",
+        "status": false,
+        "trending": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 6,
+      "fields": {
+        "Category": 3,
+        "name": "Microwave Oven",
+        "vendor": "KitchenPro",
+        "pdt_image": "images/products/microwave.jpg",
+        "quantity": 40,
+        "org_Price": 249.99,
+        "sell_Price": 199.99,
+        "description": "Convection microwave oven with smart features.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 7,
+      "fields": {
+        "Category": 4,
+        "name": "Bestseller Novel",
+        "vendor": "BookWorld",
+        "pdt_image": "images/products/bestseller_novel.jpg",
+        "quantity": 100,
+        "org_Price": 24.99,
+        "sell_Price": 19.99,
+        "description": "A thrilling bestseller novel.",
+        "status": false,
+        "trending": true,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    },
+  
+    {
+      "model": "myapp.product",
+      "pk": 8,
+      "fields": {
+        "Category": 4,
+        "name": "Self-Help Book",
+        "vendor": "ReadersPoint",
+        "pdt_image": "images/products/self_help.jpg",
+        "quantity": 50,
+        "org_Price": 19.99,
+        "sell_Price": 14.99,
+        "description": "A life-changing self-help book.",
+        "status": false,
+        "trending": false,
+        "created_at": "2025-02-15T12:00:00Z"
+      }
+    }
+  ]
+  

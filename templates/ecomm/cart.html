@@ -1,0 +1,60 @@
+{% extends 'ecomm/main.html' %}
+
+{%block title%}
+Shopkart | Register
+{%endblock title%}
+
+{% block content %}
+
+
+<!-- create container for categories -->
+<section class="bg-light py-4 my-5  ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="mb-3">CART-ITEMS</h4>
+                <hr style="color: rgb(25, 24, 24);">
+            </div>
+            <table class="table" >
+                <th>Images</th>
+                <th>Product Name</th>
+                <th>Unit</th>
+                <th>Amount</th>
+                <th>Remove</th>
+                {% for item in cart %}
+                <tr>
+                    <td>            
+                        <!-- item/product/pdt_image Url for get/retrieve-->
+                        <img src="{{item.product.pdt_image.url}}" height="75px" alt="{{item.product.pdt_image}}">
+                    </td>
+                    <td>{{item.product.name}}</td>
+                    <td>{{item.pdt_qty}}</td>
+                    <!-- <td>{{item.product.sell_Price | stringformat:'d' }}</td> -->
+                    <td class="amt">{{item.tot_prize | stringformat:'d'}}</td>
+                    <!-- <td>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash">Remove</i></button>
+                    </td> -->
+                    <td><a href="{% url 'remove_cart' item.id %}"  onclick="return confirm('Are you sure? to Remove')"  class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Remove</a></td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td colspan="3" style="text-align: center;"><b>Total Amount</b></td>
+                    <th id="net">0</th>
+                    <td><button class="btn btn-primary btn-sm">
+                      <i class="fa fa-check-circle"></i> Check Out
+                    </button></td>
+                  </tr>
+            </table>
+        </div>
+    </div>
+</section>
+<script>
+    const nodes = document.querySelectorAll('.amt');
+    const arr = Array.from(nodes);
+    const res = arr.reduce((acc, curr) => {
+     return acc += Number(curr.textContent)
+    }, 0);
+    document.getElementById("net").innerHTML="Rs : "+res;
+
+  </script>
+{% endblock content %}

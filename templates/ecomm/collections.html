@@ -1,0 +1,100 @@
+{% extends 'ecomm/main.html' %}
+
+{%block title%}
+Shopkart | Collections
+{%endblock title%}
+
+{% block content %}
+
+{% if not user.is_authenticated %}
+<section class="hero-section text-center position-relative" style=" background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/static/images/hero-bg.jpg') center/cover;">
+    <div class="container py-5">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-10 mx-auto text-white">
+                <h1 class="display-4 fw-bold mb-4">Discover Our Collections</h1>
+                <p class="lead mb-4">Explore our carefully curated categories featuring the latest trends and timeless classics</p>
+                
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{% url 'login' %}" class="btn btn-primary btn-lg px-4">Sign In</a>
+                    <a href="{% url 'register' %}" class="btn btn-outline-light btn-lg px-4">Register Now</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+
+<section class="categories-section py-5 mt-4">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h2 class="display-6 fw-bold mb-3">Shop By Category</h2>
+                <p class="text-muted">Find exactly what you're looking for</p>
+                <hr class="mx-auto" style="width: 50px; height: 3px; background-color: #0d6efd; opacity: 1;">
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            {% for item in category %}
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm hover-card">
+                        {% if item.image %}
+                        <div class="card-img-wrapper">
+                            <img src="{{ item.image.url }}" class="card-img-top" alt="{{item.name}}" 
+                                 style="height: 200px; object-fit: cover;">
+                        </div>
+                        {% endif %}
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold mb-3">{{item.name}}</h5>
+                            <p class="card-text text-muted">{{item.description|truncatechars:100}}</p>
+                            <a href="{% url 'collections' %}{{item.name}}" 
+                               class="btn btn-outline-primary stretched-link">
+                                Explore Collection
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+    .hover-card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+    
+    .card-img-wrapper {
+        overflow: hidden;
+    }
+    
+    .card-img-wrapper img {
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .hover-card:hover .card-img-wrapper img {
+        transform: scale(1.05);
+    }
+    
+    .hero-section {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn {
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+</style>
+{% endblock content %}

@@ -1,0 +1,1362 @@
+[
+  {
+    "model": "ecomm.product",
+    "pk": 1,
+    "fields": {
+      "Category": 1,
+      "name": "Samsung Galaxy S23",
+      "vendor": "Google",
+      "pdt_image": "uploads/mobiles_1.jpg",
+      "quantity": 85,
+      "org_Price": 141254.97,
+      "sell_Price": 109334.09,
+      "description": "Samsung Galaxy S23 by Google with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-04-18T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 2,
+    "fields": {
+      "Category": 1,
+      "name": "Samsung Galaxy S23",
+      "vendor": "Xiaomi",
+      "pdt_image": "uploads/mobiles_2.jpg",
+      "quantity": 96,
+      "org_Price": 125625.9,
+      "sell_Price": 106463.17,
+      "description": "Samsung Galaxy S23 by Xiaomi with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-03-31T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 3,
+    "fields": {
+      "Category": 1,
+      "name": "Xiaomi Mi 13",
+      "vendor": "OnePlus",
+      "pdt_image": "uploads/mobiles_3.jpg",
+      "quantity": 76,
+      "org_Price": 124385.11,
+      "sell_Price": 100450.53,
+      "description": "Xiaomi Mi 13 by OnePlus with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-09-08T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 4,
+    "fields": {
+      "Category": 1,
+      "name": "Xiaomi Mi 13",
+      "vendor": "OnePlus",
+      "pdt_image": "uploads/mobiles_4.jpg",
+      "quantity": 90,
+      "org_Price": 175882.02,
+      "sell_Price": 134070.42,
+      "description": "Xiaomi Mi 13 by OnePlus with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-05T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 5,
+    "fields": {
+      "Category": 1,
+      "name": "OnePlus 11",
+      "vendor": "Google",
+      "pdt_image": "uploads/mobiles_5.jpg",
+      "quantity": 45,
+      "org_Price": 43549.57,
+      "sell_Price": 33225.71,
+      "description": "OnePlus 11 by Google with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-01-25T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 6,
+    "fields": {
+      "Category": 1,
+      "name": "Samsung Galaxy S23",
+      "vendor": "Xiaomi",
+      "pdt_image": "uploads/mobiles_6.jpg",
+      "quantity": 76,
+      "org_Price": 160610.9,
+      "sell_Price": 127625.54,
+      "description": "Samsung Galaxy S23 by Xiaomi with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-05-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 7,
+    "fields": {
+      "Category": 1,
+      "name": "iPhone 15",
+      "vendor": "Apple",
+      "pdt_image": "uploads/mobiles_7.jpg",
+      "quantity": 42,
+      "org_Price": 20559.93,
+      "sell_Price": 17429.36,
+      "description": "iPhone 15 by Apple with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 8,
+    "fields": {
+      "Category": 1,
+      "name": "Xiaomi Mi 13",
+      "vendor": "Google",
+      "pdt_image": "uploads/mobiles_8.jpg",
+      "quantity": 78,
+      "org_Price": 72256.82,
+      "sell_Price": 54455.84,
+      "description": "Xiaomi Mi 13 by Google with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-14T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 9,
+    "fields": {
+      "Category": 1,
+      "name": "Samsung Galaxy S23",
+      "vendor": "Google",
+      "pdt_image": "uploads/mobiles_9.jpg",
+      "quantity": 65,
+      "org_Price": 16548.87,
+      "sell_Price": 11932.66,
+      "description": "Samsung Galaxy S23 by Google with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-09-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 10,
+    "fields": {
+      "Category": 1,
+      "name": "OnePlus 11",
+      "vendor": "OnePlus",
+      "pdt_image": "uploads/mobiles_10.jpg",
+      "quantity": 68,
+      "org_Price": 21554.69,
+      "sell_Price": 17435.88,
+      "description": "OnePlus 11 by OnePlus with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-04-18T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 11,
+    "fields": {
+      "Category": 2,
+      "name": "HP Spectre x360",
+      "vendor": "Asus",
+      "pdt_image": "uploads/laptops_11.jpg",
+      "quantity": 57,
+      "org_Price": 126288.99,
+      "sell_Price": 89727.53,
+      "description": "HP Spectre x360 by Asus with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 12,
+    "fields": {
+      "Category": 2,
+      "name": "Asus ROG Zephyrus",
+      "vendor": "Asus",
+      "pdt_image": "uploads/laptops_12.jpg",
+      "quantity": 90,
+      "org_Price": 150473.87,
+      "sell_Price": 127033.78,
+      "description": "Asus ROG Zephyrus by Asus with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-04-30T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 13,
+    "fields": {
+      "Category": 2,
+      "name": "HP Spectre x360",
+      "vendor": "Apple",
+      "pdt_image": "uploads/laptops_13.jpg",
+      "quantity": 19,
+      "org_Price": 186973.92,
+      "sell_Price": 167050.86,
+      "description": "HP Spectre x360 by Apple with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-06-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 14,
+    "fields": {
+      "Category": 2,
+      "name": "Asus ROG Zephyrus",
+      "vendor": "Lenovo",
+      "pdt_image": "uploads/laptops_14.jpg",
+      "quantity": 53,
+      "org_Price": 14711.4,
+      "sell_Price": 13000.72,
+      "description": "Asus ROG Zephyrus by Lenovo with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-09-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 15,
+    "fields": {
+      "Category": 2,
+      "name": "Lenovo ThinkPad X1",
+      "vendor": "Apple",
+      "pdt_image": "uploads/laptops_15.jpg",
+      "quantity": 69,
+      "org_Price": 110487.07,
+      "sell_Price": 80543.87,
+      "description": "Lenovo ThinkPad X1 by Apple with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-03-28T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 16,
+    "fields": {
+      "Category": 2,
+      "name": "HP Spectre x360",
+      "vendor": "HP",
+      "pdt_image": "uploads/laptops_16.jpg",
+      "quantity": 83,
+      "org_Price": 103010.67,
+      "sell_Price": 75587.87,
+      "description": "HP Spectre x360 by HP with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 17,
+    "fields": {
+      "Category": 2,
+      "name": "Lenovo ThinkPad X1",
+      "vendor": "Asus",
+      "pdt_image": "uploads/laptops_17.jpg",
+      "quantity": 42,
+      "org_Price": 152375.19,
+      "sell_Price": 110543.98,
+      "description": "Lenovo ThinkPad X1 by Asus with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-03-20T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 18,
+    "fields": {
+      "Category": 2,
+      "name": "HP Spectre x360",
+      "vendor": "Asus",
+      "pdt_image": "uploads/laptops_18.jpg",
+      "quantity": 29,
+      "org_Price": 61783.3,
+      "sell_Price": 49431.48,
+      "description": "HP Spectre x360 by Asus with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-22T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 19,
+    "fields": {
+      "Category": 2,
+      "name": "Dell XPS 15",
+      "vendor": "Apple",
+      "pdt_image": "uploads/laptops_19.jpg",
+      "quantity": 70,
+      "org_Price": 64830.82,
+      "sell_Price": 51910.74,
+      "description": "Dell XPS 15 by Apple with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-11-19T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 20,
+    "fields": {
+      "Category": 2,
+      "name": "Lenovo ThinkPad X1",
+      "vendor": "HP",
+      "pdt_image": "uploads/laptops_20.jpg",
+      "quantity": 94,
+      "org_Price": 72208.7,
+      "sell_Price": 56037.42,
+      "description": "Lenovo ThinkPad X1 by HP with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-05-21T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 21,
+    "fields": {
+      "Category": 3,
+      "name": "JBL Tune 750",
+      "vendor": "Sennheiser",
+      "pdt_image": "uploads/headphones_21.jpg",
+      "quantity": 20,
+      "org_Price": 23215.29,
+      "sell_Price": 20341.26,
+      "description": "JBL Tune 750 by Sennheiser with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-15T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 22,
+    "fields": {
+      "Category": 3,
+      "name": "JBL Tune 750",
+      "vendor": "Bose",
+      "pdt_image": "uploads/headphones_22.jpg",
+      "quantity": 84,
+      "org_Price": 20611.12,
+      "sell_Price": 16509.92,
+      "description": "JBL Tune 750 by Bose with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-11-28T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 23,
+    "fields": {
+      "Category": 3,
+      "name": "JBL Tune 750",
+      "vendor": "Apple",
+      "pdt_image": "uploads/headphones_23.jpg",
+      "quantity": 52,
+      "org_Price": 21878.99,
+      "sell_Price": 17816.22,
+      "description": "JBL Tune 750 by Apple with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 24,
+    "fields": {
+      "Category": 3,
+      "name": "Bose QC45",
+      "vendor": "Bose",
+      "pdt_image": "uploads/headphones_24.jpg",
+      "quantity": 26,
+      "org_Price": 89991.15,
+      "sell_Price": 79949.77,
+      "description": "Bose QC45 by Bose with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-12-22T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 25,
+    "fields": {
+      "Category": 3,
+      "name": "Sony WH-1000XM5",
+      "vendor": "Sony",
+      "pdt_image": "uploads/headphones_25.jpg",
+      "quantity": 17,
+      "org_Price": 140755.58,
+      "sell_Price": 117964.77,
+      "description": "Sony WH-1000XM5 by Sony with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-04-30T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 26,
+    "fields": {
+      "Category": 3,
+      "name": "Sennheiser Momentum 4",
+      "vendor": "Sony",
+      "pdt_image": "uploads/headphones_26.jpg",
+      "quantity": 47,
+      "org_Price": 174324.61,
+      "sell_Price": 146459.2,
+      "description": "Sennheiser Momentum 4 by Sony with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-12-10T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 27,
+    "fields": {
+      "Category": 3,
+      "name": "Sony WH-1000XM5",
+      "vendor": "JBL",
+      "pdt_image": "uploads/headphones_27.jpg",
+      "quantity": 72,
+      "org_Price": 192534.2,
+      "sell_Price": 159940.12,
+      "description": "Sony WH-1000XM5 by JBL with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-07-30T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 28,
+    "fields": {
+      "Category": 3,
+      "name": "AirPods Pro",
+      "vendor": "Sony",
+      "pdt_image": "uploads/headphones_28.jpg",
+      "quantity": 68,
+      "org_Price": 63043.73,
+      "sell_Price": 49087.89,
+      "description": "AirPods Pro by Sony with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-19T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 29,
+    "fields": {
+      "Category": 3,
+      "name": "AirPods Pro",
+      "vendor": "Sennheiser",
+      "pdt_image": "uploads/headphones_29.jpg",
+      "quantity": 51,
+      "org_Price": 197622.87,
+      "sell_Price": 162899.85,
+      "description": "AirPods Pro by Sennheiser with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-09-04T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 30,
+    "fields": {
+      "Category": 3,
+      "name": "Bose QC45",
+      "vendor": "JBL",
+      "pdt_image": "uploads/headphones_30.jpg",
+      "quantity": 90,
+      "org_Price": 13568.19,
+      "sell_Price": 10455.84,
+      "description": "Bose QC45 by JBL with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-10T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 31,
+    "fields": {
+      "Category": 4,
+      "name": "Garmin Fenix 7",
+      "vendor": "Amazfit",
+      "pdt_image": "uploads/smartwatches_31.jpg",
+      "quantity": 22,
+      "org_Price": 59740.59,
+      "sell_Price": 43027.63,
+      "description": "Garmin Fenix 7 by Amazfit with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-12-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 32,
+    "fields": {
+      "Category": 4,
+      "name": "Samsung Galaxy Watch 5",
+      "vendor": "Amazfit",
+      "pdt_image": "uploads/smartwatches_32.jpg",
+      "quantity": 18,
+      "org_Price": 73111.67,
+      "sell_Price": 56807.33,
+      "description": "Samsung Galaxy Watch 5 by Amazfit with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-17T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 33,
+    "fields": {
+      "Category": 4,
+      "name": "Amazfit GTR 4",
+      "vendor": "Fitbit",
+      "pdt_image": "uploads/smartwatches_33.jpg",
+      "quantity": 75,
+      "org_Price": 125546.57,
+      "sell_Price": 105108.23,
+      "description": "Amazfit GTR 4 by Fitbit with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-04-13T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 34,
+    "fields": {
+      "Category": 4,
+      "name": "Amazfit GTR 4",
+      "vendor": "Apple",
+      "pdt_image": "uploads/smartwatches_34.jpg",
+      "quantity": 76,
+      "org_Price": 13457.47,
+      "sell_Price": 11424.33,
+      "description": "Amazfit GTR 4 by Apple with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-02-17T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 35,
+    "fields": {
+      "Category": 4,
+      "name": "Apple Watch Series 9",
+      "vendor": "Garmin",
+      "pdt_image": "uploads/smartwatches_35.jpg",
+      "quantity": 11,
+      "org_Price": 80019.66,
+      "sell_Price": 69363.81,
+      "description": "Apple Watch Series 9 by Garmin with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-13T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 36,
+    "fields": {
+      "Category": 4,
+      "name": "Garmin Fenix 7",
+      "vendor": "Apple",
+      "pdt_image": "uploads/smartwatches_36.jpg",
+      "quantity": 33,
+      "org_Price": 104382.43,
+      "sell_Price": 80407.78,
+      "description": "Garmin Fenix 7 by Apple with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-11-24T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 37,
+    "fields": {
+      "Category": 4,
+      "name": "Samsung Galaxy Watch 5",
+      "vendor": "Samsung",
+      "pdt_image": "uploads/smartwatches_37.jpg",
+      "quantity": 77,
+      "org_Price": 156550.26,
+      "sell_Price": 126351.07,
+      "description": "Samsung Galaxy Watch 5 by Samsung with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-21T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 38,
+    "fields": {
+      "Category": 4,
+      "name": "Apple Watch Series 9",
+      "vendor": "Amazfit",
+      "pdt_image": "uploads/smartwatches_38.jpg",
+      "quantity": 92,
+      "org_Price": 104121.91,
+      "sell_Price": 93661.83,
+      "description": "Apple Watch Series 9 by Amazfit with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-04-16T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 39,
+    "fields": {
+      "Category": 4,
+      "name": "Apple Watch Series 9",
+      "vendor": "Amazfit",
+      "pdt_image": "uploads/smartwatches_39.jpg",
+      "quantity": 31,
+      "org_Price": 70920.08,
+      "sell_Price": 52074.11,
+      "description": "Apple Watch Series 9 by Amazfit with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-01-19T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 40,
+    "fields": {
+      "Category": 4,
+      "name": "Amazfit GTR 4",
+      "vendor": "Amazfit",
+      "pdt_image": "uploads/smartwatches_40.jpg",
+      "quantity": 20,
+      "org_Price": 115378.19,
+      "sell_Price": 98285.91,
+      "description": "Amazfit GTR 4 by Amazfit with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-12T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 41,
+    "fields": {
+      "Category": 5,
+      "name": "Huawei MatePad 11",
+      "vendor": "Huawei",
+      "pdt_image": "uploads/tablets_41.jpg",
+      "quantity": 41,
+      "org_Price": 184640.85,
+      "sell_Price": 157111.2,
+      "description": "Huawei MatePad 11 by Huawei with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-06-04T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 42,
+    "fields": {
+      "Category": 5,
+      "name": "iPad Pro M2",
+      "vendor": "Lenovo",
+      "pdt_image": "uploads/tablets_42.jpg",
+      "quantity": 60,
+      "org_Price": 189614.57,
+      "sell_Price": 158724.58,
+      "description": "iPad Pro M2 by Lenovo with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-08T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 43,
+    "fields": {
+      "Category": 5,
+      "name": "Microsoft Surface Pro 9",
+      "vendor": "Apple",
+      "pdt_image": "uploads/tablets_43.jpg",
+      "quantity": 77,
+      "org_Price": 196845.61,
+      "sell_Price": 142058.63,
+      "description": "Microsoft Surface Pro 9 by Apple with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-07-23T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 44,
+    "fields": {
+      "Category": 5,
+      "name": "Lenovo Tab P12",
+      "vendor": "Lenovo",
+      "pdt_image": "uploads/tablets_44.jpg",
+      "quantity": 60,
+      "org_Price": 96029.06,
+      "sell_Price": 78000.94,
+      "description": "Lenovo Tab P12 by Lenovo with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-01-11T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 45,
+    "fields": {
+      "Category": 5,
+      "name": "Lenovo Tab P12",
+      "vendor": "Huawei",
+      "pdt_image": "uploads/tablets_45.jpg",
+      "quantity": 69,
+      "org_Price": 76818.48,
+      "sell_Price": 64569.7,
+      "description": "Lenovo Tab P12 by Huawei with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-11-16T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 46,
+    "fields": {
+      "Category": 5,
+      "name": "Microsoft Surface Pro 9",
+      "vendor": "Huawei",
+      "pdt_image": "uploads/tablets_46.jpg",
+      "quantity": 66,
+      "org_Price": 108969.97,
+      "sell_Price": 80300.84,
+      "description": "Microsoft Surface Pro 9 by Huawei with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-23T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 47,
+    "fields": {
+      "Category": 5,
+      "name": "Samsung Galaxy Tab S9",
+      "vendor": "Microsoft",
+      "pdt_image": "uploads/tablets_47.jpg",
+      "quantity": 24,
+      "org_Price": 132582.56,
+      "sell_Price": 115299.39,
+      "description": "Samsung Galaxy Tab S9 by Microsoft with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-05-05T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 48,
+    "fields": {
+      "Category": 5,
+      "name": "Microsoft Surface Pro 9",
+      "vendor": "Microsoft",
+      "pdt_image": "uploads/tablets_48.jpg",
+      "quantity": 52,
+      "org_Price": 121090.17,
+      "sell_Price": 108076.78,
+      "description": "Microsoft Surface Pro 9 by Microsoft with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-01T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 49,
+    "fields": {
+      "Category": 5,
+      "name": "Lenovo Tab P12",
+      "vendor": "Huawei",
+      "pdt_image": "uploads/tablets_49.jpg",
+      "quantity": 29,
+      "org_Price": 38520.48,
+      "sell_Price": 28676.77,
+      "description": "Lenovo Tab P12 by Huawei with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-11-23T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 50,
+    "fields": {
+      "Category": 5,
+      "name": "iPad Pro M2",
+      "vendor": "Samsung",
+      "pdt_image": "uploads/tablets_50.jpg",
+      "quantity": 63,
+      "org_Price": 14916.64,
+      "sell_Price": 12990.1,
+      "description": "iPad Pro M2 by Samsung with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-08T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 51,
+    "fields": {
+      "Category": 6,
+      "name": "Canon EOS R5",
+      "vendor": "Sony",
+      "pdt_image": "uploads/cameras_51.jpg",
+      "quantity": 77,
+      "org_Price": 63689.12,
+      "sell_Price": 51830.62,
+      "description": "Canon EOS R5 by Sony with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 52,
+    "fields": {
+      "Category": 6,
+      "name": "Sony A7 IV",
+      "vendor": "Sony",
+      "pdt_image": "uploads/cameras_52.jpg",
+      "quantity": 27,
+      "org_Price": 24684.06,
+      "sell_Price": 17860.95,
+      "description": "Sony A7 IV by Sony with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-04-15T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 53,
+    "fields": {
+      "Category": 6,
+      "name": "Fujifilm X-T5",
+      "vendor": "Nikon",
+      "pdt_image": "uploads/cameras_53.jpg",
+      "quantity": 12,
+      "org_Price": 135651.69,
+      "sell_Price": 113458.67,
+      "description": "Fujifilm X-T5 by Nikon with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-03-17T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 54,
+    "fields": {
+      "Category": 6,
+      "name": "Panasonic Lumix GH6",
+      "vendor": "Canon",
+      "pdt_image": "uploads/cameras_54.jpg",
+      "quantity": 30,
+      "org_Price": 107732.02,
+      "sell_Price": 94929.97,
+      "description": "Panasonic Lumix GH6 by Canon with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-18T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 55,
+    "fields": {
+      "Category": 6,
+      "name": "Nikon Z9",
+      "vendor": "Fujifilm",
+      "pdt_image": "uploads/cameras_55.jpg",
+      "quantity": 24,
+      "org_Price": 108794.43,
+      "sell_Price": 96630.88,
+      "description": "Nikon Z9 by Fujifilm with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-03-21T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 56,
+    "fields": {
+      "Category": 6,
+      "name": "Nikon Z9",
+      "vendor": "Panasonic",
+      "pdt_image": "uploads/cameras_56.jpg",
+      "quantity": 80,
+      "org_Price": 32387.64,
+      "sell_Price": 25758.54,
+      "description": "Nikon Z9 by Panasonic with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-01-27T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 57,
+    "fields": {
+      "Category": 6,
+      "name": "Nikon Z9",
+      "vendor": "Nikon",
+      "pdt_image": "uploads/cameras_57.jpg",
+      "quantity": 28,
+      "org_Price": 48582.31,
+      "sell_Price": 40573.28,
+      "description": "Nikon Z9 by Nikon with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-03-23T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 58,
+    "fields": {
+      "Category": 6,
+      "name": "Sony A7 IV",
+      "vendor": "Panasonic",
+      "pdt_image": "uploads/cameras_58.jpg",
+      "quantity": 42,
+      "org_Price": 99546.33,
+      "sell_Price": 89231.05,
+      "description": "Sony A7 IV by Panasonic with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-05-19T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 59,
+    "fields": {
+      "Category": 6,
+      "name": "Nikon Z9",
+      "vendor": "Nikon",
+      "pdt_image": "uploads/cameras_59.jpg",
+      "quantity": 18,
+      "org_Price": 192212.99,
+      "sell_Price": 150702.73,
+      "description": "Nikon Z9 by Nikon with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-09-24T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 60,
+    "fields": {
+      "Category": 6,
+      "name": "Nikon Z9",
+      "vendor": "Fujifilm",
+      "pdt_image": "uploads/cameras_60.jpg",
+      "quantity": 69,
+      "org_Price": 53008.83,
+      "sell_Price": 38900.47,
+      "description": "Nikon Z9 by Fujifilm with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-29T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 61,
+    "fields": {
+      "Category": 7,
+      "name": "PlayStation 5",
+      "vendor": "Sony",
+      "pdt_image": "uploads/gaming consoles_61.jpg",
+      "quantity": 60,
+      "org_Price": 26973.05,
+      "sell_Price": 19782.86,
+      "description": "PlayStation 5 by Sony with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-20T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 62,
+    "fields": {
+      "Category": 7,
+      "name": "Xbox Series X",
+      "vendor": "Nintendo",
+      "pdt_image": "uploads/gaming consoles_62.jpg",
+      "quantity": 50,
+      "org_Price": 25354.51,
+      "sell_Price": 20338.19,
+      "description": "Xbox Series X by Nintendo with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-12-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 63,
+    "fields": {
+      "Category": 7,
+      "name": "Nintendo Switch OLED",
+      "vendor": "Sony",
+      "pdt_image": "uploads/gaming consoles_63.jpg",
+      "quantity": 71,
+      "org_Price": 113028.93,
+      "sell_Price": 94092.52,
+      "description": "Nintendo Switch OLED by Sony with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-12-04T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 64,
+    "fields": {
+      "Category": 7,
+      "name": "Xbox Series X",
+      "vendor": "Valve",
+      "pdt_image": "uploads/gaming consoles_64.jpg",
+      "quantity": 23,
+      "org_Price": 70083.75,
+      "sell_Price": 58719.75,
+      "description": "Xbox Series X by Valve with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-08T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 65,
+    "fields": {
+      "Category": 7,
+      "name": "PlayStation 5",
+      "vendor": "Valve",
+      "pdt_image": "uploads/gaming consoles_65.jpg",
+      "quantity": 33,
+      "org_Price": 56437.24,
+      "sell_Price": 42084.43,
+      "description": "PlayStation 5 by Valve with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 66,
+    "fields": {
+      "Category": 7,
+      "name": "PlayStation 5",
+      "vendor": "Nintendo",
+      "pdt_image": "uploads/gaming consoles_66.jpg",
+      "quantity": 83,
+      "org_Price": 171415.65,
+      "sell_Price": 131440.24,
+      "description": "PlayStation 5 by Nintendo with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-08-26T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 67,
+    "fields": {
+      "Category": 7,
+      "name": "Asus ROG Ally",
+      "vendor": "Asus",
+      "pdt_image": "uploads/gaming consoles_67.jpg",
+      "quantity": 90,
+      "org_Price": 48459.04,
+      "sell_Price": 36536.13,
+      "description": "Asus ROG Ally by Asus with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-04-06T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 68,
+    "fields": {
+      "Category": 7,
+      "name": "Nintendo Switch OLED",
+      "vendor": "Microsoft",
+      "pdt_image": "uploads/gaming consoles_68.jpg",
+      "quantity": 52,
+      "org_Price": 46539.85,
+      "sell_Price": 33235.49,
+      "description": "Nintendo Switch OLED by Microsoft with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-01-31T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 69,
+    "fields": {
+      "Category": 7,
+      "name": "Nintendo Switch OLED",
+      "vendor": "Asus",
+      "pdt_image": "uploads/gaming consoles_69.jpg",
+      "quantity": 86,
+      "org_Price": 160414.94,
+      "sell_Price": 122271.55,
+      "description": "Nintendo Switch OLED by Asus with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-06-15T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 70,
+    "fields": {
+      "Category": 7,
+      "name": "Steam Deck",
+      "vendor": "Microsoft",
+      "pdt_image": "uploads/gaming consoles_70.jpg",
+      "quantity": 30,
+      "org_Price": 61858.83,
+      "sell_Price": 50747.17,
+      "description": "Steam Deck by Microsoft with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-03-13T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 71,
+    "fields": {
+      "Category": 8,
+      "name": "Philips Air Fryer",
+      "vendor": "Dyson",
+      "pdt_image": "uploads/home appliances_71.jpg",
+      "quantity": 65,
+      "org_Price": 71387.47,
+      "sell_Price": 60257.84,
+      "description": "Philips Air Fryer by Dyson with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-07T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 72,
+    "fields": {
+      "Category": 8,
+      "name": "LG Washing Machine",
+      "vendor": "iRobot",
+      "pdt_image": "uploads/home appliances_72.jpg",
+      "quantity": 37,
+      "org_Price": 56864.71,
+      "sell_Price": 42280.64,
+      "description": "LG Washing Machine by iRobot with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-23T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 73,
+    "fields": {
+      "Category": 8,
+      "name": "Philips Air Fryer",
+      "vendor": "Philips",
+      "pdt_image": "uploads/home appliances_73.jpg",
+      "quantity": 70,
+      "org_Price": 47386.56,
+      "sell_Price": 35373.2,
+      "description": "Philips Air Fryer by Philips with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-06-03T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 74,
+    "fields": {
+      "Category": 8,
+      "name": "Dyson Air Purifier",
+      "vendor": "iRobot",
+      "pdt_image": "uploads/home appliances_74.jpg",
+      "quantity": 50,
+      "org_Price": 29109.82,
+      "sell_Price": 22059.81,
+      "description": "Dyson Air Purifier by iRobot with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-01T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 75,
+    "fields": {
+      "Category": 8,
+      "name": "Philips Air Fryer",
+      "vendor": "iRobot",
+      "pdt_image": "uploads/home appliances_75.jpg",
+      "quantity": 91,
+      "org_Price": 197697.84,
+      "sell_Price": 165835.5,
+      "description": "Philips Air Fryer by iRobot with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-02-24T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 76,
+    "fields": {
+      "Category": 8,
+      "name": "iRobot Roomba i7",
+      "vendor": "iRobot",
+      "pdt_image": "uploads/home appliances_76.jpg",
+      "quantity": 47,
+      "org_Price": 71518.85,
+      "sell_Price": 60730.21,
+      "description": "iRobot Roomba i7 by iRobot with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-22T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 77,
+    "fields": {
+      "Category": 8,
+      "name": "Samsung Smart Refrigerator",
+      "vendor": "LG",
+      "pdt_image": "uploads/home appliances_77.jpg",
+      "quantity": 86,
+      "org_Price": 99740.05,
+      "sell_Price": 72275.18,
+      "description": "Samsung Smart Refrigerator by LG with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-08-03T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 78,
+    "fields": {
+      "Category": 8,
+      "name": "Samsung Smart Refrigerator",
+      "vendor": "LG",
+      "pdt_image": "uploads/home appliances_78.jpg",
+      "quantity": 37,
+      "org_Price": 57015.33,
+      "sell_Price": 42152.66,
+      "description": "Samsung Smart Refrigerator by LG with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-07-29T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 79,
+    "fields": {
+      "Category": 8,
+      "name": "Dyson Air Purifier",
+      "vendor": "Philips",
+      "pdt_image": "uploads/home appliances_79.jpg",
+      "quantity": 33,
+      "org_Price": 166693.18,
+      "sell_Price": 147059.31,
+      "description": "Dyson Air Purifier by Philips with premium features.",
+      "status": false,
+      "trending": true,
+      "created_at": "2024-10-20T00:00:00"
+    }
+  },
+  {
+    "model": "ecomm.product",
+    "pk": 80,
+    "fields": {
+      "Category": 8,
+      "name": "Samsung Smart Refrigerator",
+      "vendor": "Philips",
+      "pdt_image": "uploads/home appliances_80.jpg",
+      "quantity": 84,
+      "org_Price": 98735.42,
+      "sell_Price": 83460.83,
+      "description": "Samsung Smart Refrigerator by Philips with premium features.",
+      "status": false,
+      "trending": false,
+      "created_at": "2024-10-18T00:00:00"
+    }
+  }
+]

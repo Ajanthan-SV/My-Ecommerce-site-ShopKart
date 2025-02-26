@@ -1,0 +1,90 @@
+[
+  {
+    "model": "ecomm.category",
+    "pk": 1,
+    "fields": {
+      "name": "Mobiles",
+      "image": "uploads/mobiles_category.jpg",
+      "description": "Mobile phones and smartphones",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 2,
+    "fields": {
+      "name": "Laptops",
+      "image": "uploads/laptops_category.jpg",
+      "description": "Laptop computers",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 3,
+    "fields": {
+      "name": "Headphones",
+      "image": "uploads/headphones_category.jpg",
+      "description": "Audio headphones and earbuds",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 4,
+    "fields": {
+      "name": "Smartwatches",
+      "image": "uploads/smartwatches_category.jpg",
+      "description": "Smart watches and fitness trackers",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 5,
+    "fields": {
+      "name": "Tablets",
+      "image": "uploads/tablets_category.jpg",
+      "description": "Tablet computers",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 6,
+    "fields": {
+      "name": "Cameras",
+      "image": "uploads/cameras_category.jpg",
+      "description": "Digital cameras and accessories",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 7,
+    "fields": {
+      "name": "Gaming Consoles",
+      "image": "uploads/gaming_category.jpg",
+      "description": "Video game consoles and accessories",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  },
+  {
+    "model": "ecomm.category",
+    "pk": 8,
+    "fields": {
+      "name": "Home Appliances",
+      "image": "uploads/appliances_category.jpg",
+      "description": "Home and kitchen appliances",
+      "status": false,
+      "created_at": "2024-12-31T09:27:02.859Z"
+    }
+  }
+]

@@ -1,0 +1,199 @@
+{% extends 'ecomm/main.html' %} {% load static %} {% block title %} Shopkart |
+Online Shopping {% endblock title %} {% block content %}
+
+<section class="bg-light py-4 my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="mb-3">{{ products }} Details</h4>
+        <hr style="border-color: rgb(121, 121, 121)" />
+        {% include 'ecomm/message.html' %}
+      </div>
+
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'collections' products.Category %}">{{products.Category}}</a></li>
+          <li class="breadcrumb-item " aria-currents="page">{{products.name}}</li>
+        </ol>
+      </nav>
+
+
+      <div class="col-md-4 col-6 my-3 pic-box " >
+        {% if products.trending %}
+        <div class="hot">HOT</div>
+        {%  endif %}
+        {% if products.pdt_image %}
+        <div class="frame">
+            <img src="{{ products.pdt_image.url }}" class="card-img-top" alt="categories"
+          style="height: 200px; width: auto" />
+        </div>
+        
+        {% endif %}
+      </div>
+      <div class="col-md-8 col-6 my-3" >
+        <!-- TO CONVERT INTO UPPER -->
+        <h3 class="text-success">{{ products | upper }}</h3>
+        <p>{{ products.vendor | upper }}</p>
+        <p>{{ products.description }}</p>
+        <h5 class="my-2 text-danger">
+          Current Price:<s>₹{{products.org_Price | stringformat:'d'}}</s>
+        </h5>
+        <h4 class="my-2 text-success">
+          Offer Price:₹{{products.sell_Price | stringformat:'d'}}
+        </h4>
+
+        
+
+        <div class="my-2">
+          {% if products.quantity > 0 %}
+          <input type="hidden" value="{{products.id}}" id="pid">
+            <div class="input-group my-2" style="width: 150px;">
+              <button class="input-group-text bg-success text-light" type="button" id="btnminus"><i class="fa fa-minus"></i></button>
+              <input type="text" name="Qty" class="form-control text-center" id="textqty" value="1">
+              <button class="input-group-text bg-success text-light" type="button" id="btnplus"><i class="fa fa-plus"></i></button>
+            </div>
+            <button class="btn btn-primary" id="btnCart">
+              <i class="fa fa-cart-shopping"></i> Add to Cart
+            </button>
+          {% else %}
+            <button class="btn btn-primary">
+              <i class="fa fa-minus"></i>Add Out of Stock
+            </button>
+          {% endif %}
+          <!-- <button class="btn btn-danger"><i class="fa fa-heart"></i></button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+
+  const btnPlus = document.getElementById('btnplus');
+    const btnMinus = document.getElementById('btnminus');
+    const textQty = document.getElementById('textqty');
+    const pid = document.getElementById("pid");
+    const btnCart = document.getElementById("btnCart");
+
+    // Add event listeners to buttons
+    btnPlus.addEventListener('click', function() {
+        let currentValue = parseInt(textQty.value,10);
+        currentValue=isNaN(currentValue)? 0 :currentValue;
+        if (currentValue < 10) { // Ensure quantity doesn't go below 1
+        textQty.value = currentValue + 1; // Increase the value by 1
+        }
+        
+    });
+
+    btnMinus.addEventListener('click', function() {
+        let currentValue = parseInt(textQty.value);
+        currentValue=isNaN(currentValue)? 0 :currentValue;
+        if (currentValue > 1) { // Ensure quantity doesn't go below 1
+            textQty.value = currentValue - 1; // Decrease the value by 1
+        }
+    });
+
+    btnCart.addEventListener("click", function() {
+      let qty=parseInt(textQty.value,10);
+      qty=isNaN(qty)?0:qty;
+      
+      if(qty>0){
+        let postObj = { 
+            'pdt_qty': qty, 
+            'pid': pid.value
+        }
+        //console.log(postObj);
+        fetch("/addtocart",{
+          method: 'POST',
+          credentials: 'same-origin',
+          headers:{
+              'Accept': 'application/json',
+              'X-Requested-With': 'XMLHttpRequest',
+              'X-CSRFToken': '{{ csrf_token }}',
+          },
+          body: JSON.stringify(postObj)
+        }).then(response => {
+	        return response.json();
+        }).then(data => {
+        	//console.log(data);
+          alert(data['status']);
+        });
+ 
+
+      }else{
+        alert("Please Enter The Quantity");
+      }
+      
+  });
+
+
+</script>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    const btnPlus = document.getElementById("btnplus");
+    const btnMinus = document.getElementById("btnminus");
+    const txtQty = document.getElementById("txtQty");
+    const pid = document.getElementById("pid");
+    const btnCart = document.getElementById("btnCart");
+
+  
+    btnPlus.addEventListener("click", function() {
+      let qty=parseInt(txtQty.value,10);
+      qty=isNaN(qty)?0:qty;
+      //console.log(qty);
+      if(qty<10){
+        qty++;
+        txtQty.value=qty;
+      }
+    });
+  
+    btnMinus.addEventListener("click", function() {
+        let qty=parseInt(txtQty.value,10);
+        qty=isNaN(qty)?0:qty;
+        //console.log(qty);
+        if(qty>1){
+          qty--;
+          txtQty.value=qty;
+        }
+    });
+  
+    btnCart.addEventListener("click", function() {
+        let qty=parseInt(txtQty.value,10);
+        qty=isNaN(qty)?0:qty;
+        
+        if(qty>0){
+          let postObj = { 
+              'product_qty': qty, 
+              'pid': pid.value
+          }
+          //console.log(postObj);
+          fetch("/addtocart",{
+            method: 'POST',
+            credentials: 'same-origin',
+            headers:{
+                'Accept': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest',
+                'X-CSRFToken': '{{ csrf_token }}',
+            },
+            body: JSON.stringify(postObj)
+          }).then(response => {
+            return response.json();
+          }).then(data => {
+            //console.log(data);
+            alert(data['status']);
+          });
+   
+  
+        }else{
+          alert("Please Enter The Quantity");
+        }
+        
+    });
+  
+  
+  
+  });
+   </script> -->
+{% endblock content %}
