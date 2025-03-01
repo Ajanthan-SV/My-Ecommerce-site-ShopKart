@@ -14,25 +14,22 @@ Online Shopping {% endblock title %} {% block content %}
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'collections' products.Category %}">{{products.Category}}</a></li>
-          <li class="breadcrumb-item " aria-currents="page">{{products.name}}</li>
+          <li class="breadcrumb-item " aria-current="page">{{products.name}}</li>
         </ol>
       </nav>
 
-
-      <div class="col-md-4 col-6 my-3 pic-box " >
+      <div class="col-12 col-md-4 my-3 pic-box">
         {% if products.trending %}
         <div class="hot">HOT</div>
-        {%  endif %}
+        {% endif %}
         {% if products.pdt_image %}
         <div class="frame">
-            <img src="{{ products.pdt_image.url }}" class="card-img-top" alt="categories"
-          style="height: 200px; width: auto" />
+          <img src="{{ products.pdt_image.url }}" class="card-img-top" alt="categories" style="height: 200px; width: auto" />
         </div>
-        
         {% endif %}
       </div>
-      <div class="col-md-8 col-6 my-3" >
-        <!-- TO CONVERT INTO UPPER -->
+
+      <div class="col-12 col-md-8 my-3">
         <h3 class="text-success">{{ products | upper }}</h3>
         <p>{{ products.vendor | upper }}</p>
         <p>{{ products.description }}</p>
@@ -48,18 +45,18 @@ Online Shopping {% endblock title %} {% block content %}
         <div class="my-2">
           {% if products.quantity > 0 %}
           <input type="hidden" value="{{products.id}}" id="pid">
-            <div class="input-group my-2" style="width: 150px;">
-              <button class="input-group-text bg-success text-light" type="button" id="btnminus"><i class="fa fa-minus"></i></button>
-              <input type="text" name="Qty" class="form-control text-center" id="textqty" value="1">
-              <button class="input-group-text bg-success text-light" type="button" id="btnplus"><i class="fa fa-plus"></i></button>
-            </div>
-            <button class="btn btn-primary" id="btnCart">
-              <i class="fa fa-cart-shopping"></i> Add to Cart
-            </button>
+          <div class="input-group my-2" style="width: 150px;">
+            <button class="input-group-text bg-success text-light" type="button" id="btnminus"><i class="fa fa-minus"></i></button>
+            <input type="text" name="Qty" class="form-control text-center" id="textqty" value="1">
+            <button class="input-group-text bg-success text-light" type="button" id="btnplus"><i class="fa fa-plus"></i></button>
+          </div>
+          <button class="btn btn-primary" id="btnCart">
+            <i class="fa fa-cart-shopping"></i> Add to Cart
+          </button>
           {% else %}
-            <button class="btn btn-primary">
-              <i class="fa fa-minus"></i>Add Out of Stock
-            </button>
+          <button class="btn btn-primary">
+            <i class="fa fa-minus"></i>Add Out of Stock
+          </button>
           {% endif %}
           <!-- <button class="btn btn-danger"><i class="fa fa-heart"></i></button> -->
         </div>
