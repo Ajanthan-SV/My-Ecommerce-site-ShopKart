@@ -152,7 +152,8 @@ MEDIA_ROOT=  BASE_DIR /'static/'  #TO STORE THE IMG IN FOLDER
 MEDIA_URL='Images/'
 
 # Define the STATIC_ROOT
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # or any other directory you prefer
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # or any other directory you prefer
+STATIC_ROOT = os.path.join(BASE_DIR, '/static')  # or any other directory you prefer
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
