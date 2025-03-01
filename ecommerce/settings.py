@@ -147,13 +147,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [STATIC_DIR,]
+# STATICFILES_DIRS = [STATIC_DIR,]
 MEDIA_ROOT=  BASE_DIR /'static/'  #TO STORE THE IMG IN FOLDER
 MEDIA_URL='Images/'
 
 # Define the STATIC_ROOT
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # or any other directory you prefer
-STATIC_ROOT = os.path.join(BASE_DIR, '/static')  # or any other directory you prefer
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # Where static files are stored in development
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Where collectstatic will collect them
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
