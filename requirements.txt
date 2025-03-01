@@ -4,6 +4,7 @@ bing-image-downloader==1.1.2
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
+dj-database-url==2.3.0
 Django==5.1.4
 django-jazzmin==3.0.1
 google_images_download==2.8.0

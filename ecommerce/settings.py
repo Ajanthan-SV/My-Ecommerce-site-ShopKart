@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-($ol%wq%)i%r4oku(wos1v6c!_@0b7@b_5x=^i$*1j%1!rdacz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://shopkart-7d3j.onrender.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["shopkart-7d3j.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
