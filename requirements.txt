@@ -19,7 +19,6 @@ progressbar==2.5
 pycparser==2.22
 PyMySQL==1.1.1
 PySocks==1.7.1
-python-magic-bin==0.4.14
 requests==2.32.3
 selenium==4.28.1
 simple-image-download==0.5
