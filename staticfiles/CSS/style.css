@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'Noto sans', sans-serif;
+}
+a{
+    list-style: none;
+}
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 110vh;
+    overflow: hidden;
+}
+
+.pic-box{
+    position: relative;
+}
+.hot{
+    background-color:red;
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-family: bold;
+    display: inline;
+    border-radius: 3px;
+    position:relative;
+    top: 20px;
+    left: 205px;
+    z-index: 10;
+}
+.table th, td {
+    border: 1px solid #444; /* Border color for table cells */
+}
